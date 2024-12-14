@@ -1,8 +1,8 @@
 const dotenv = require('dotenv')
 dotenv.config()
-const express = require('express')
+const express = require('express') 
 const cors = require('cors')
-const app = express()
+const app = express() 
 const userRoutes = require('./routes/user.routes')
 const captainRoutes = require('./routes/captain.routes')
 
